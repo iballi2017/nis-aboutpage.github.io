@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="nis-resp.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    <title>Document</title>
+
+    <script>
+        x=1;
+        function openMenu(){
+            if (x===1){
+                document.getElementById("navbar").style.display="block"; x=0;
+                document.getElementById("heading").style.height="500px"; x=0;
+            }else if(x===0){
+                document.getElementById("navbar").style.display="none"; x=1;
+                document.getElementById("heading").style.height="350px"; x=1;
+            }
+        }
+    </script>
+</head>
+<body>
+    <header id="heading">
+        <nav>
+                <img src="immigration-logo.png" class="logo">
+                <span class="caption">
+                    Nigerian Immigration<br/>
+                    Service
+                </span>
+            <img src="menu1.png" alt="menu button" id="menu-button" onclick="openMenu()">
+                <ul id="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">ContactUs</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">SignUp</a></li>
+                    <li><a href="#">Login</a></li>  
+                </ul>
+        </nav>
+        <div id="hero">
+                <h1>Vision and Mission Statements</h1>
+
+                <p>Vision:<br />
+                    To be a modern, effective and efficient Immigration<br />
+                    Service, manned by well trained and motivated<br />
+                    workforce.</p>
+                    
+                    <p>Mission:<br />
+                    To strengthen the security and prosperityof Nigeria<br />
+                    through proactive, effective and efficient border<br />
+                    security and migration management.</p>
+                <!-- <span class="theme">We provide the best plant care<br/>and service for you</span> 
+                <p><button>LEARN MORE</button></p> -->
+        </div>
+
+    </header>
+    <section>
+        The Nigeria Immigration Service is responsible according to the act establishing it for:<br />
+            -The Control of persons entering or leaving Nigeria<br />
+            -The issurance of travel documents, to bonafide Nigerians in and outside Nigeria<br />
+            -The issuance of reidence permits to foreigners in Nigeria<br />
+            -Border surveillance and patrol<br />
+            -Enforcement of laws and regulations with which we have been directly charged.
+    </section>
+<!-- footer begins -->
+     <footer> 
+
+        <!-- mobile footer content begins here -->
+         <div class="mobile-footer-content">
+            <p><strong>Address:</strong> NIS HQ<br />
+            Shehu Shagari Complex, Airport Road, Sauka, Abuja, FCT Nigeria.</p>
+            <p><strong>Complaints/Enquiries:</strong><br />
+            Phone:+234-708-0607-900, +234-811-9753-844 Hours of Operation: 07:00 - 20:00hours (GMT+1)<br />
+            Email: nis.servicom@nigeriaimmigration.gov.ng<br /></p>
+            
+            <p><strong>News</strong><br />
+            Minister Decorates New DCG<br />
+            April 13, 2018</p>
+            <p>Nigeria and Niger Affirm Commitment To Joint Border Security<br />
+            April 13, 2018</p>
+            NIS Reinforces Border Patrol in Benue State<br />
+            April 13, 2018
+        </div>
+        <!-- mobile footer content ends here -->
+
+        
+
+        <!-- tablet footer content begins here -->
+
+        <div class="tablet-footer-content">
+                <div class="first-colon">
+                    <strong>Address:</strong> NIS HQ<br/>
+                    Shehu Shagari Complex, Airport Road, Sauka, Abuja, FCT Nigeria.
+                    <p><strong>Complaints/Enquiries:</strong><br />
+                        Phone:+234-708-0607-900, +234-811-9753-844
+                        Hours of Operation: 07:00 - 20:00hours (GMT+1)<br />
+                        Email: nis.servicom@nigeriaimmigration.gov.ng</p>
+                </div>
+                <div class="second-colon">
+                    <strong>News</strong>
+                    <p>Minister Decorates New DCG</p>
+                    <p>April 13, 2018</p>
+                    <p>Nigeria and Niger Affirm Commitment To Joint Border Security</p>
+                    <p>April 13, 2018</p>
+                    <p>NIS Reinforces Border Patrol in Benue State<br />
+                    <p>April 13, 2018</p>
+                </div>
+        </div>
+        <!-- tablet footer content ends here -->
+
+        <div class="social-media">
+            <a href="#"><img src="facebook-logo.png"></a>
+            <a href="#"><img src="twitter-logo.png"></a>
+            <a href="#"><img src="instagram-logo.png"></a>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="footer-copyright">© 2018 Copyright:
+            Nigeria Immigration Service (NIS)
+        </div>
+        <!-- Copyright -->
+
+
+    </footer>
+
+    <!-- footer ends -->
+</body>
+</html>
+
+
